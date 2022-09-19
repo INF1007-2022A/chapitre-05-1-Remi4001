@@ -69,7 +69,7 @@ def use_continue() -> None:
 
 
 def verify_ages(groups: List[List[int]]) -> List[bool]:
-    accepted = [bool]
+    accepted: List[bool] = []
 
     for i in range(len(groups)):
         groups[i].sort()
